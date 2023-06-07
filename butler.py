@@ -330,8 +330,8 @@ def show_all_notes() -> str:
         return 'No records, please add\n'
 
 
-import os
-import shutil
+#import os
+#import shutil
 
 def sort_files():
     folder_path = input("Enter the absolute path of the folder you want to sort (example: C:\Desktop\project): ")
@@ -381,8 +381,6 @@ def sort_files():
 def sort_files_handler():
     categorized_files = sort_files()
     return categorized_files
-
-
 
 
 commands = {
